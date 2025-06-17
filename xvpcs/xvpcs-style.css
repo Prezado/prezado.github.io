@@ -1,0 +1,153 @@
+/* Basic reset and font setup */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.center {
+  display:block;
+  margin: auto;
+}
+
+.sponsor {
+  display: inline;
+  margin: 0px 10px 5px 40px;
+  width: 300px;
+}
+
+.smaller {
+  display: inline;
+  margin: 0px 20px 30px 50px;
+  width: 200px;
+}
+
+body {
+  background-color: #e0e0e0;
+  color: #555;
+  line-height: 1.3;
+}
+
+/* Headings */
+h1, h2 {
+  color: #D18D23;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-family: IBM Plex;
+  font-variant: small-caps; 
+}
+
+h3 {
+  color: #D18D23; 
+  margin-bottom: 10px;
+  margin-left: 15px;
+  margin-top: 15px;
+  font-family: IBM Plex;
+  font-variant: small-caps; 
+}
+ 
+/* Paragraphs */
+.container p {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-family: IBM Plex;
+  margin-left: 30px;
+}
+
+.container li {
+  margin-left: 45px;
+  font-family: IBM Plex;
+}
+
+/* Links */
+a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Navbar */
+
+.navbar {
+  background-color: #4F4F4F;
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 10px 10px;
+  margin: 0 auto;
+}
+
+.navbar li {
+  display: inline;
+  padding: 10px 10px;
+  font-variant: small-caps;
+  border-right: 1px solid #ccc
+}
+
+.navbar li a {
+  display: inline;
+  color: orange;
+  padding: 4px 8px;
+  text-decoration: none;
+}
+
+.navbar li a:hover {
+  background-color: #D88302;
+  color: white;
+}
+
+
+/* Buttons */
+button {
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  padding: 15px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #005fa3;
+}
+
+/* Container class for layout */
+.header {
+  background-color: #f7f7f7;
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+li a.active {
+  background-color: #F8A322;
+  color: #4F4F4F;
+}
+
+.container {
+  background-color: #f7f7f7;
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.footer {
+  background-color: #4F4F4F;
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 5px;
+}
+
+.footer p {
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color:  #DDDDDD;
+}
