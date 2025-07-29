@@ -151,3 +151,9 @@ li a.active {
   margin-bottom: 5px;
   color:  #DDDDDD;
 }
+
+/* Table */
+
+th, td {
+  padding: 5px;
+}
