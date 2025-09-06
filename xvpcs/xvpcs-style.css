@@ -157,13 +157,3 @@ li a.active {
 th, td {
   padding: 5px;
 }
-
-.top td {
-  padding-top: 5px;
-  padding-bottom: 0px;
-}
-
-.bot td {
-  padding-top: 0px;
-  padding-bottom: 5px;
-}
